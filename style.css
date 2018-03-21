@@ -4,10 +4,11 @@ body{}
     height: 100px;
 }
 .header{
-    background-image: url(img_style/slider_fon_header.png);
+    background-image: url(https://png.pngtree.com/thumb_back/fw800/back_pic/03/99/90/9257fb3cf459c0d.jpg);
+    /*url(img_style/slider_fon_header.png);*/
 }
 .logo_png{
-    height: 35px;
+    height: 75px;
 }
 
 .text_header {
@@ -23,7 +24,9 @@ body{}
 
 .price_style{
     border: 1px solid green;
-    border-radius: 6 6 6 6;
+   /* border-style: solid;*/
+    border-radius: 5px;
+    text-align: center;
     
     
 }
