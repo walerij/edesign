@@ -1,0 +1,29 @@
+body{}
+
+.avatarka {
+    height: 100px;
+}
+.header{
+    background-image: url(img_style/slider_fon_header.png);
+}
+.logo_png{
+    height: 35px;
+}
+
+.text_header {
+    color: white
+}
+.about li 
+{ list-style: none}
+
+.for_course li, .result li
+{ list-style: none}
+.result li
+{ list-style: none}
+
+.price_style{
+    border: 1px solid green;
+    border-radius: 6 6 6 6;
+    
+    
+}

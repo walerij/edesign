@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Слайдер</title>
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+     
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="slider.js"></script>
+    <link href="style.css" rel="stylesheet">
+
+</head>
+<body>
+   <div class="container">
+     <div class="row">
+            <div class="row">
+         <div class="bg-success header" style='padding: 1em'><h3 class="text_header">
+                  <img src="img_style/fmap.png" alt="logo" class="logo_png" />
+                  Базовый asp-ект
+                  </h3> 
+                  </div>        
+         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">              
+             <div class="col-lg-8 col-md-8 col-sm-9 col-xs-9 about">               
+                  <H4>Создание сайта на ASP.NET MVC</H4>
+                  <p>
+                      Авторы: Евгений Волосатов и Валерий Жданов
+                  </p>
+                  <ul>
+                    <li>
+                       <i class="glyphicon glyphicon-ok text-success"></i>&nbsp;&nbsp;
+                       ASP.NET MVC
+                    </li>
+                    <li>
+                      <i class="glyphicon glyphicon-ok text-success"></i>&nbsp;&nbsp;
+                      C#
+                    </li>
+                    <li>
+                      <i class="glyphicon glyphicon-ok text-success"></i>&nbsp;&nbsp;
+                      ООП
+                    </li>
+                    <li>
+                      <i class="glyphicon glyphicon-ok text-success"></i>&nbsp;&nbsp;
+                      HTML&CSS
+                    </li>
+                    <li> <i class="glyphicon glyphicon-ok text-success"></i>&nbsp;&nbsp;
+                      Bootstrap 
+                    </li>
+                  </ul>
+             </div>
+             <div class="col-lg-4 col-md-4 col-sm-3 col-xs-3">
+                 <img src='https://www.videosharp.info/start/web/img/aspect.png' alt='no' width="120px"
+                   >
+             </div>            
+         </div>          
+     </div>
+     
+  </div>
+  <div class="row">
+      <div class="bg-warning" style='padding: 1em' >Для кого курс: </div>
+        <ul class="for_course">
+            <li><i class="glyphicon glyphicon-hand-right text-success"></i>&nbsp;&nbsp; для тех, кто давно хочет создать web-проект</li>
+            <li><i class="glyphicon glyphicon-hand-right text-success"></i>&nbsp;&nbsp; для начинающих программистов</li>
+            <li><i class="glyphicon glyphicon-hand-right text-success"></i>&nbsp;&nbsp; для веб-разработчиков </li>
+        </ul>
+        <div class="bg-success" style='padding: 1em'>Что я получу: </div>
+        <div class="row">
+            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                <img src='img_style/school_director-96.png' alt='no' width="120px"
+                   >
+            </div> 
+             <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
+                <ul class="result">
+                     <LI>&nbsp;</LI>
+                    <li>Опыт в создании веб сайта с нуля</li>
+                    <li>знакомство с технологией ASP.NET, ООП</li>
+                    <li>SQL-инъекции</li>
+                    <li>опыт по размещению сайта в сети интернет</li>
+                </ul>
+            </div> 
+        </div>
+        
+
+  </div>      
+       <div class="row">
+           <h1>Слайдер</h1>
+       </div>
+       <div class="row">
+        <div id="testCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Индикаторы карусели -->
+           
+ <ol class="carousel-indicators">
+                <!-- Перейти к слайду №0 с помощью соответствующего атрибута с индексом data-slide-to="0" -->
+                <li data-target="#testCarousel" data-slide-to="0" class="active"></li>
+                <!-- Перейти к слайду №1 с помощью соответствующего индекса data-slide-to="1" -->
+                <li data-target="#testCarousel" data-slide-to="1"></li>
+                <!-- Перейти к слайду №1 с помощью соответствующего индекса data-slide-to="2" -->
+                <li data-target="#testCarousel" data-slide-to="2"></li>
+            </ol>
+            <!-- Слайды карусели -->
+            <div class="carousel-inner">
+                <!-- Слайд 1 -->
+                <div class="item active">
+                    <img src="img/slider_fon.png" alt="fonchik">
+                    <div class="carousel-caption">
+                       <img src="https://www.videosharp.info/users/791/avatar/791_avatar_1.jpg" alt="avatarka" class="avatarka">
+                       <h3>Жданов Валерий </h3>
+                       <p>очень понравился урок, всё сделал, правда была какая-то проблема, 
+                       из - за которой нерефакторенный код не работал, а перенес поиск еmail в 
+                       нужный класс, доработал урок до конца - всё стало как по маслу</p>
+                    </div>
+                </div>
+                <!-- Слайд 2 -->
+                <div class="item">
+                   <img src="img/slider_fon.png" alt="fonchik">
+                    <div class="carousel-caption">
+                       <img src="https://www.videosharp.info/users/7119/avatar/7119_avatar_1.jpg" alt="avatarka" class="avatarka">
+                        <h3>Новопашин Владимир </h3>
+                        <p>Отличный курс, освоид его за день, и написал несколько приложений на Андроид</p>                       
+                    </div>
+                </div>
+                <!-- Слайд 3 -->
+                <div class="item">
+                    <img src="img/slider_fon.png" alt="fonchik">
+                    <div class="carousel-caption">
+                       <img src="https://www.videosharp.info/users/10558/avatar/10558_avatar_1.png" alt="avatarka" class="avatarka">
+                       <h3>Иван Воронин </h3>
+                       <p>Пройдя уидеокрус "Мультиязычное меню на JavaScript", я:
+                            1. научился работе с API Яндекс Переводчика.
+                            2. понравилась краткость изложения уроков.
+                            3. добавил асинхронность загрузки перевода пунктов меню, динамическое изменение значения атрибута lang в теге html.
+                        </p>
+                      
+                </div>
+            </div>
+
+            <!-- Навигация карусели (следующий или предыдущий слайд) -->
+            <!-- Кнопка, переход на предыдущий слайд с помощью атрибута data-slide="prev" -->
+            <a class="left carousel-control" href="#testCarousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <!-- Кнопка, переход на следующий слайд с помощью атрибута data-slide="next" -->
+            <a class="right carousel-control" href="#testCarousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+        </div>
+      </div> 
+            <div class="row">
+                <h1>Выберите свой вариант</h1>
+                <div class="col-lg-3 offset-lg-1 col-md-3 offset-md-1 col-sm-3 offset-sm-1 col-xs-3 offset-xs-1 price_style">
+                    Цена 1
+                </div>
+             
+                <div class="col-lg-3 offset-lg-1 col-md-3 offset-md-1 col-sm-3 offset-sm-1 col-xs-3 offset-xs-1 price_style">
+                    Цена 2
+                </div>
+                
+                <div class="col-lg-3 offset-lg-1 col-md-3 offset-md-1 col-sm-3 offset-sm-1 col-xs-3 offset-xs-1 price_style">
+                     Цена 3
+                </div>
+               
+            </div>
+             
+    </div> 
+</body>
+</html>
